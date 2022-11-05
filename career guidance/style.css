@@ -1,0 +1,144 @@
+*{
+    background-color: white;
+}.navbar ul{
+    width: 95%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    margin: 0 20px;
+    align-items: right;
+    justify-content: right;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar ul li::after{
+    contain: '';
+    height: 3px;
+    width: 100%;   
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    position: relative;
+}
+.content{
+    width: 100%;
+    position: left;
+    top: 60%;
+    transform: translateY(-35%);
+    text-align: center;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: large;
+    top: 40%;
+    font: 30%;
+}
+.content h1{
+    text-size-adjust: 100%;
+    font-size: 60px;
+}
+#loginpage{
+    display: none;
+}
+.login-form{
+    text-align: center;
+    position: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.tenth{
+    position: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: large;
+    size:large;
+}
+.after10th{
+    position: center;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    line-height: 1.8;
+    margin-top: 5%;
+}
+.intro p{
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+}
+.biology{
+    text-align: center;
+    position: center;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+.business{
+    text-align: center;
+    position: center;
+    width: 100%;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+.computer{
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+.purescience{
+    text-align: center;
+    position: center;
+    line-height: 1.8;
+    word-spacing: 4px;   
+}
+.copcom{
+    position: center;
+    line-height: 1.8;
+    text-align: center; 
+    word-spacing: 4px;  
+}
+#logo{
+    color: blue;
+    text-align: left;
+    position: left;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+.vocational{
+    text-align: center;
+    position: center;
+    line-height: 1.8;
+    word-spacing: 4px;
+}
+.registration-form{
+    position: center;
+    text-align: center;
+    
+}
+#heading h3{
+    background-color: rgb(13, 148, 211);
+    margin-top: -1%;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    word-spacing: 7px;
+}
